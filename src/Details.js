@@ -1,31 +1,35 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
+import logogradient from "./assets/logo.png"
+import logo from "./assets/logo2.svg"
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.jpg"
 // Tech stack images
-import html from "./assets/techstack/html.png";
-import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
-import js from "./assets/techstack/js.png";
-import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
-import bootstrap from "./assets/techstack/bootstrap.png";
-import vscode from "./assets/techstack/vscode.png";
-import github from "./assets/techstack/github.png";
-import git from "./assets/techstack/git.png";
-import npm from "./assets/techstack/npm.png";
-import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
+import aws from "./assets/techstack/aws.png"
+import bootstrap from "./assets/techstack/bootstrap.png"
+import css from "./assets/techstack/css.png"
+import figma from "./assets/techstack/figma.png"
+import git from "./assets/techstack/git.png"
+import github from "./assets/techstack/github.png"
+import html from "./assets/techstack/html.png"
+import js from "./assets/techstack/js.png"
+import laravel from "./assets/techstack/laravel.png"
+import npm from "./assets/techstack/npm.png"
+import php from "./assets/techstack/php.png"
+import postman from "./assets/techstack/postman.png"
+import react from "./assets/techstack/react.png"
+import redux from "./assets/techstack/redux.png"
+import sass from "./assets/techstack/sass.png"
+import tailwind from "./assets/techstack/tailwind.png"
+import vscode from "./assets/techstack/vscode.png"
+import vue from "./assets/techstack/vue-js.png"
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage1 from "./assets/projects/project1.jpg"
+import projectImage2 from "./assets/projects/project2.jpg"
+import projectImage3 from "./assets/projects/project3.jpg"
+import projectImage4 from "./assets/projects/project4.jpg"
+import projectImage5 from "./assets/projects/project5.jpg"
+import projectImage6 from "./assets/projects/project6.jpg"
 
 // Logos
 export const logos = {
@@ -35,17 +39,16 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Thicianny Marques",
+  tagline: "Fullstack Developer",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: ``,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
+  linkdein: "https://www.linkedin.com/in/thicianny-marques-2849a61b4/",
+  github: "https://github.com/ThiciannyMarques",
   instagram: "https://www.instagram.com/",
 };
 
@@ -53,24 +56,24 @@ export const socialMediaUrl = {
 export const workDetails = [
   {
     Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Company: `Viper`,
+    Location: "Pará - Brasil",
+    Type: "Internship",
+    Duration: "Out 2019 - Dec 2019",
+  },
+  {
+    Position: "Fullstack Developer",
+    Company: `Policia Civil do Estado do Pará`,
+    Location: "Pará - Brasil",
+    Type: "Internship",
+    Duration: "dec 2020 - Dec 2021",
+  },
+  {
+    Position: "Frontend Developer",
+    Company: `Compass Uol`,
+    Location: "Brasil",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Jan 2022 - Atual",
   },
 ];
 
@@ -78,98 +81,84 @@ export const workDetails = [
 export const eduDetails = [
   {
     Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
+    Company: "Udemy",
     Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "Jan 2021 - Aug 2021",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Position: "Ciência da Computação",
+    Company: `Unama`,
+    Location: "Brasil",
+    Duration: "Aug 2019 - Present",
   },
 ];
 
 // Tech Stack and Tools
 export const techStackDetails = {
-  html: html,
+  aws: aws,
+  bootstrap: bootstrap,
   css: css,
+  figma: figma,
+  git: git,
+  github: github,
   js: js,
+  html: html,
+  laravel: laravel,
+  npm: npm,
+  php: php,
+  postman: postman,
   react: react,
   redux: redux,
   sass: sass,
   tailwind: tailwind,
-  bootstrap: bootstrap,
   vscode: vscode,
-  postman: postman,
-  npm: npm,
-  git: git,
-  github: github,
-  figma: figma,
+  vue: vue
 };
 
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Policia Civil",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Criação e melhoria do site oficial da policia.`,
+    techstack: "HTML/CSS, JavaScript, Vue.js, PHP, Laravel, Postgres",
+    previewLink: "https://www.pc.pa.gov.br",
   },
   {
-    title: "Project title 2",
+    title: "Vivo Empresas",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Ecommerce feito para vendas B2B`,
+    techstack: "Adobe AEM, JavaScript, Vue.js, Java, Dispatcher",
+    previewLink: "https://lojaempresas.vivo.com.br/content/b2b/e-commerce-equipamentos/vitrine.html",
   },
   {
-    title: "Project title 3",
+    title: "Preview card",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Projeto de teste para estudos de diferentes formas de fazer um card`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://stats-preview-card-component-main-cyan.vercel.app",
+
   },
   {
-    title: "Project title 4",
+    title: "Order Summary",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Estudo para fixação de conteudo`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://order-summary-component-main-steel.vercel.app",
+
   },
   {
-    title: "Project title 5",
+    title: "Acotar",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Esqueleton de blog de leitura e resumo`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://thiciannymarques.github.io/AcotarBooks/",
+
   },
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "thicianny14@gmail.com",
+  phone: "+55 85 991133102",
 };
